@@ -1,2 +1,3 @@
-2025/12/25-12:36:38.466 51ac Creating DB D:\SMFashions\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb since it was missing.
-2025/12/25-12:36:38.712 51ac Reusing MANIFEST D:\SMFashions\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/01/09-19:40:59.716 560c Reusing MANIFEST D:\SMFashions\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/01/09-19:40:59.729 560c Recovering log #3
+2026/01/09-19:40:59.734 560c Reusing old log D:\SMFashions\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 

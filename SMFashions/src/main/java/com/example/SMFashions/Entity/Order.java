@@ -1,0 +1,49 @@
+package com.example.SMFashions.Entity;
+
+import java.time.LocalDateTime;
+
+import com.example.SMFashions.Dto.PaymentMethod;
+import com.example.SMFashions.Dto.PaymentStatus;
+import com.example.SMFashions.Enum.OrderStatus;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import lombok.Data;
+@Entity
+@Table(name = "orders")
+@Data
+public class Order {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String orderNumber;
+
+    @ManyToOne
+    @JoinColumn(name = "account_id")
+    private Account account;
+
+    private Double totalAmount;
+
+    @Enumerated(EnumType.STRING)
+    private OrderStatus status;
+
+    // 🔹 PAYMENT FIELDS (for future)
+    @Enumerated(EnumType.STRING)
+    private PaymentMethod paymentMethod;   // COD / ONLINE
+
+    @Enumerated(EnumType.STRING)
+    private PaymentStatus paymentStatus;   // PENDING / SUCCESS / FAILED
+
+    private String paymentReference;        // Razorpay/Stripe payment id
+
+    private LocalDateTime createdAt;
+}

@@ -82,10 +82,13 @@
         </dependency>
         
          <!-- Swagger / OpenAPI -->
-        <dependency>
-  <groupId>org.springdoc</groupId>
-  <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-  <version>2.3.0</version>
+       
+
+<!-- cloudatory -->
+<dependency>
+    <groupId>com.cloudinary</groupId>
+    <artifactId>cloudinary-http45</artifactId>
+    <version>1.39.0</version>
 </dependency>
 
 

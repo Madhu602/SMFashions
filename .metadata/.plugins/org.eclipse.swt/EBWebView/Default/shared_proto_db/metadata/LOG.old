@@ -1,2 +1,3 @@
-2025/12/25-12:36:38.428 ecc Creating DB D:\SMFashions\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata since it was missing.
-2025/12/25-12:36:38.520 ecc Reusing MANIFEST D:\SMFashions\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2026/01/09-19:40:59.420 5bac Reusing MANIFEST D:\SMFashions\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2026/01/09-19:40:59.421 5bac Recovering log #3
+2026/01/09-19:40:59.421 5bac Reusing old log D:\SMFashions\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/000003.log 
